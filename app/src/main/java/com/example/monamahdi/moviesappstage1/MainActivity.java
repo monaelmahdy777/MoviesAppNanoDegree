@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements MoviesRecyclerAda
     private RecyclerView moviesRecyclerView;
     private MoviesRecyclerAdapter moviesRecyclerAdapter;
     private int mNumber = 20;
-    private static final String API_KEY = "719170d3b1619059bd135db28c268572";
+    private static final String API_KEY = "";
     private List<Result> results = new ArrayList<>();
     public static final int TOP_RATED = 0;
     public static final int MOST_POPULAR = 1;

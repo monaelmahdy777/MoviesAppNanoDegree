@@ -37,7 +37,7 @@ public class MoviesDetailsActivity extends AppCompatActivity implements Trailers
     private Result result;
     private Retrofit retrofit;
     public static final String BASE_URL = "https://api.themoviedb.org/3/";
-    private static final String API_KEY = "719170d3b1619059bd135db28c268572";
+    private static final String API_KEY = "";
     Button favBtn;
     private RecyclerView recyclerViewTrailers;
     private ArrayList<trailers> allTrailers;
